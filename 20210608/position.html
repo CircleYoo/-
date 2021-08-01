@@ -1,0 +1,27 @@
+<!-- position.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>position</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        .box {width: 100px; height: 100px; background-color: #fab;}
+        .box {
+            position: static; /* static - 정적이다. 움직이지 않음*/
+            /* 상하좌우 값이 적용되지 않는다 */
+            position: relative; /* 관계적인 - 원래 위치에서 지정된 크기만큼 이동한다.*/
+            position: absolute;
+            width: auto; height: auto;
+            left: 100px; top: 100px;
+            right: 100px; bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- .box - <div class="box></div>" -->
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>

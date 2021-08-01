@@ -1,0 +1,26 @@
+<!-- z0index.html -->
+<!-- 광고팝업창 쓸 때 많이 쓴다 or header -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {width: 100px; height: 100px; position: absolute;}
+        .box:nth-child(1) {background-color: #fab;
+            left: 0; top: 0; z-index: 999;
+        }
+        .box:nth-child(2) {background-color: #abf;
+            left: 20px; top: 20px; z-index: 9;
+        }
+        .box:nth-child(3) {background-color: #afb;
+            left: 40px; top: 40px; z-index: 99;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>

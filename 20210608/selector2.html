@@ -1,0 +1,28 @@
+<!-- selector2.html / 인접요소 선택자 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* h1 태그 바로 다음에 있는 p */
+        h1+p{color: #f00;}
+        /* h3 태그 다음에 나오는 모든 p 태그*/
+        h3~p{color: #00f;}
+        h1,h2,h3,h4 {font-size: 50px;}
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Lorem, ipsum dolor.</p>
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem, ipsum dolor.</p>
+    <h3>Lorem, ipsum dolor.</h3>
+    <p>Lorem, ipsum dolor.</p>
+    <h4>Lorem, ipsum dolor.</h4>
+    <p>Lorem, ipsum dolor.</p>
+    <div>
+        <p>Lorem, ipsum dolor.</p>
+    </div>
+</body>
+</html>

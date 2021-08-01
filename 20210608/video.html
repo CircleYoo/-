@@ -1,0 +1,27 @@
+<!-- videon.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0;;}
+        body {position:relative; overflow: hidden;}
+        #bg_video {width: 1920px; position: absolute;
+        left: 50%; margin-left: -960px;}
+        .contents {z-index: 999; position: relative;}
+        .contents {color: #fff;}
+        .video_cover {position: absolute; width: 1920px;
+        height: 1080px;left: 50%; margin-left: -960px;
+        top: 0; z-index: 9; 
+        background-color: rgba(255, 0, 0, 0.3);}
+    </style>
+</head>
+<body>
+    <video src="찜통 더위 기념 삼색이 눈밭영상.mp4" controls autoplay muted loop id="bg_video"></video>
+    <div class="video_cover"></div>
+    <div class="contents">
+        <h1>찜통 더위 기념 삼색이 눈밭영상</h1>
+    </div>
+</body>
+</html>
