@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/0517_float_T.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header class="section">
+            <div class="container">
+            <div id="logo">LOGO</div>
+            <nav>
+                <ul class="pc-menu">
+                    <li><a href="#">pc-list</a></li>
+                    <li><a href="#">pc-list</a></li>
+                    <li><a href="#">pc-list</a></li>
+                    <li><a href="#">pc-list</a></li>
+                    <li><a href="#">pc-list</a></li>
+                </ul>
+                <div class="mobile-menubtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <ul id="mobile">
+                    <li><a href="#">mobile-list</a></li>
+                    <li><a href="#">mobile-list</a></li>
+                    <li><a href="#">mobile-list</a></li>
+                    <li><a href="#">mobile-list</a></li>
+                    <li><a href="#">mobile-list</a></li>
+                    <li><a href="#">mobile-list</a></li>
+            </ul>
+            </div>
+        </header>
+        <main>
+            <div id="f-img">
+            <img src="img/main_bg03.jpg" alt="">
+            </div>
+        </main>
+        <section id="content" class="section">
+            <div class="banner_wrap container">
+                <div id="banner">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ul>
+                </div>
+                <div class="aside">
+                    SIDE TEXT
+                </div>
+            </div>
+            <div id="banner_text" class="container">
+                <p>BANNER02 TEXT</p>
+                <ul>
+                    <li>Responsive web</li>
+                    <li>Responsive web</li>
+                    <li>Responsive web</li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <div class="f-menu">
+                <ul>
+                    <li>f-menu</li>
+                    <li>f-menu</li>
+                    <li>f-menu</li>
+                    <li>f-menu</li>
+                    <li>f-menu</li>
+                    <li>f-menu</li>
+                </ul>
+            </div>
+            <div class="copyright">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nemo incidunt sed fugiat, debitis unde eveniet ad perspiciatis animi. Quasi!
+            </div>
+        </footer>
+    </div>
+    <script>
+        // 제이쿼리 사용 태그
+        $(document).ready(function(){
+            $('.mobile-menubtn').click(function(){
+                $('#mobile').slideDown()
+            });
+            $('#mobile').mouseleave(function(){
+                $(this).slideUp()
+            });
+        });
+    </script>
+</body>
+</html>
