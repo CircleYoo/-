@@ -1,0 +1,39 @@
+main
+
+
+<<banner-left 내용물 >>
+
+
+<h3> BERRY HOLIC </h3>
+<p> CAFFEE MeMeMi SEASON MENU </p>
+<a href="#"> More </a>
+
+
+
+
+<<banner-right 내용물 >>
+
+
+<h3> Lollipop </h3>
+<p> CAFFEE MeMeMi CHOICE </p>
+<a href="#"> More </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

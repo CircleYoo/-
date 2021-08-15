@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'Godo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Godo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
+    }
+
+  .godo * {font-family: 'Godo', sans-serif;}
+
+@font-face {
+    font-family: 'Swagger';
+    src:url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/Swagger.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* header style sheet */
+* {margin: 0; padding: 0;}
+html,body {font-size: 12px;}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {vertical-align: bottom;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;}
+address,em{font-style: normal;}
+
+#wrap {width: 100%;}
+.section {max-width: 1200px; margin: 0 auto;}
+/* header {height: 650px;} */
+
+#pc-nav {
+    background: url(../image/mimi_moblie_btnbg.png);
+    height: 64px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.pcmenu {
+    text-align: center;
+    float: left;
+    width: 20%;
+    position: relative;
+    font-family: 'Godo';
+    font-size: 15px;
+}
+.pcmenu>a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 53px;
+}
+.pcmenu:hover {border-bottom: 2px solid #ff309e;}
+.pcmenu:hover>a {color: #ff309e;}
+.pcmenu ul li a:hover {color: #ff309e;}
+.pcmenu ul {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 55px;
+    display: none;
+}
+.pcmenu ul li {text-align: center;}
+.pcmenu li>a {
+    display: block;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+#logo {
+    position: relative;
+    padding-top: 33.85%;
+}
+#logo>img {
+    position: absolute;
+    margin: 0 auto;
+    top: 0; left: 0;
+    width: 100%;
+}
+
+#logo a>img {
+    position: absolute;
+    width: 20%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+/* main style sheet */
+main {
+    overflow: hidden;
+}
+
+.mainbanner {
+    float: left;
+    width: 50%;
+    height: 649px;
+    position: relative;
+}
+.mainbanner-text-cover {
+    position: absolute;
+    font-family: 'Godo';
+    color: #fff;
+    z-index: 10;
+}
+
+.mainbanner-text-cover h3 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+.mainbanner-text-cover p {
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+}
+
+.mainbanner-text-cover a {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+.mainbanner-text-cover a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.mainbanner-left {
+    position: relative;
+    float: left;
+    width: 50%;
+    background: url(../image/mimi_bannerimg01.png) center no-repeat;
+}
+
+.mainbanner-left .mainbanner-text-cover {
+    top: 30px;
+    right: 30px;
+    text-align: right;
+}
+
+.mainbanner-right {
+    position: relative;
+    float: right;
+    width: 50%;
+    background: url(../image/mimi_bannerimg02.png) no-repeat center;
+}
+.mainbanner-right .mainbanner-text-cover {
+    top: 30px;
+    left: 30px;
+    text-align: left;
+}
+
+/* main-best menu style sheet */
+#best-menu {
+    background: #ffe3e3;
+    padding: 20rem 0 10rem;
+    text-align: center;
+    /* position: relative; */
+    /* z-index: 6; */
+}
+
+#best-menu>.con-title {
+    font-family: 'Godo';
+    margin-top: 500px;
+    margin-bottom: 5rem;
+}
+
+.con-title h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+.con-title span {
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: #333;
+    margin: 0 auto;    
+}
+.con-title p {
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+    color: rgb(143, 143, 143);
+    line-height: 30px;
+}
+.con-banner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.con-banner ul {
+    overflow: hidden;
+}
+.con-banner li {
+    float: left;
+    width: 25%;
+}
+.con-banner img {
+    display: block;
+    margin: 0 auto 30px;
+}
+.con-banner img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.con-banner h2{
+    font-family: 'Swagger';
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.con-banner p {
+    color: 333px;
+    line-height: 15px;
+}
+
+/* collect style sheet */
+#collect {
+    text-align: center;
+    padding-top: 10rem;
+    position: relative;
+}
+
+#collect>.con-title {
+    font-family: 'Godo';
+    margin-bottom: 8rem;
+}
+#collect>.con-title h2 {
+    margin-bottom: 1rem;
+}
+
+#collect>.con-title h3 {
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.con-bgimg {
+    background: url(../image/mimi_content02_imgbg.png) center fixed;
+    height: 250px;
+}
+
+/* place style sheet */
+
+#place {
+    max-width: 1200px;
+    margin: 10rem auto;
+}
+
+.con-banner a {
+    display: block;
+}
+
+#container {
+    text-align: center;
+}
+
+#container li {
+    float: left;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#container .title {
+    font-family: 'Swagger';
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    display: block;
+}
+#container .text {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-family: 'Godo';
+    color: #333;
+}
+
+/* footer style sheet */
+footer {
+    background: url(../image/mimi_hd_visual_footer.jpg) no-repeat center;
+    padding: 4rem 0;
+    text-align: center;
+    color: #999;
+    background-size: cover;
+}
+
+#f-logo {
+    display: block;
+    margin-bottom: 30px;
+}
+address {
+    font-family: 'Godo';
+    font-size: 1.3rem;
+    color: #ccc;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+
+.snscover a{
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+    /* margin-right: 20px; */
+}
+
+.snscover a:hover {
+    opacity: 1;
+}
+.snscover a img {
+    margin-right: 20px;
+}
+
+#icon3 {
+    margin: 0;
+}
+
